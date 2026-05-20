@@ -24,13 +24,13 @@ export const offersConfig = {
   offers: [
     {
       id: "Summer-2026",
-      title: "Monsoon Special",
-      code: "VITALI20",
-      description: "Flat 20% off on all room bookings this monsoon season.",
+      title: "Summer Special",
+      code: "SUMMER@VITALI20",
+      description: "Flat 20% off on all room bookings this summer season.",
       discountPercent: 20,
       enabled: true,
       startDate: "2026-05-01",
-      endDate: "2026-08-31",
+      endDate: "2026-06-30",
       badge: "20% OFF",
     },
     {
