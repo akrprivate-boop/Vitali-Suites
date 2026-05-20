@@ -25,14 +25,14 @@ export const rooms = [
 
     // Full-day (standard) booking
     fullDay: {
-      price: 1700,
+      price: 2300,
       label: "Full Day (24 hrs)",
     },
 
     // Half-day booking — flip `enabled` to false to hide it for this room
     halfDay: {
       enabled: true,
-      price: 850,
+      price: 1150,
       label: "Half Day (up to 6 to 8 hrs)",
       description: "Flexible check-in — perfect for day rest & business travellers",
     },
@@ -69,19 +69,19 @@ export const rooms = [
       "A bright, airy room with windows and a calm aesthetic. Our Non-AC Rooms are a smart choice for budget-conscious guests who still want premium bedding, fast Wi-Fi and attentive service.",
 
     fullDay: {
-      price: 1400,
+      price: 1750,
       label: "Full Day (24 hrs)",
     },
 
     halfDay: {
       enabled: true,
-      price: 700,
+      price: 875,
       label: "Half Day (up to 6 to 8 hrs)",
       description: "Flexible check-in — perfect for budget-conscious travellers and guests.",
     },
 
     maxGuests: 2,
-    bedType: "Double Bed",
+    bedType: "Queen Bed",
     sizeSqft: 180,
 
     amenities: [
@@ -112,7 +112,7 @@ export const rooms = [
       "The Vitali Suite is the pinnacle of our hospitality. A separate lounge, a king-size bed dressed in fine linen and curated amenities make every moment feel special. Ideal for honeymooners, families and discerning guests.",
 
     fullDay: {
-      price: 4999,
+      price: 3200,
       label: "Full Day (24 hrs)",
     },
 
@@ -132,6 +132,8 @@ export const rooms = [
       "Separate Living Area with Sofa",
       "Free High-Speed Wi-Fi",
       "Smart TV",
+      "Unlimited Rooftop Pool Access"
+      "Rooftop View from the terrace"
       "Premium Bedding",
       "Premium Toiletries",
       "Priority Room Service",
