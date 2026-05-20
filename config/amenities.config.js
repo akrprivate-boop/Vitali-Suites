@@ -6,10 +6,8 @@
 export const hotelAmenities = [
   { icon: "wifi", label: "Free High-Speed Wi-Fi" },
   { icon: "pool", label: "Swimming Pool" },
-  { icon: "parking", label: "Free Parking" },
   { icon: "ac", label: "Air Conditioning" },
-  { icon: "service", label: "24x7 Room Service" },
-  { icon: "reception", label: "24-Hour Reception" },
+  { icon: "service", label: "24x7 Room Service/Reception" },
 ];
 
 export default hotelAmenities;
