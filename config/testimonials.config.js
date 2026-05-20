@@ -4,7 +4,7 @@
 
 export const testimonials = [
   {
-    name: "Ananya Sharma - 27 Apr 2026",
+    name: "Anushka - 27 Apr 2026",
     location: "Delhi",
     rating: 5,
     text: "Absolutely stunning property! The suite was spacious and spotless, and the staff treated us like royalty.",
@@ -22,7 +22,7 @@ export const testimonials = [
     text: "We hosted our anniversary party here. Truly a premium experience with the poolside view at a fair price.",
   },
   {
-    name: "Bibhu Priya Rajaguru - 30 Dec 2025",
+    name: "Amit Ray - 30 Dec 2025",
     location: "Odisha",
     rating: 4,
     text: "Excellent experience at the hotel! Amenities were top-notch, staff very courteous and helpful, and the check-in process was smooth and quick. Truly a comfortable stay. Highly recommend to everyone!",
