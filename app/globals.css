@@ -1,0 +1,76 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #0e0f12;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-ink text-cream font-sans antialiased;
+}
+
+/* Thin gold scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0e0f12;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a3a3a;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c9a35e;
+}
+
+@layer components {
+  /* Glassmorphism card */
+  .glass {
+    @apply bg-white/5 backdrop-blur-xl border border-white/10 rounded-2xl;
+  }
+  .glass-light {
+    @apply bg-white/[0.03] backdrop-blur-md border border-white/10;
+  }
+
+  /* Gold gradient text */
+  .text-gradient {
+    @apply bg-gold-gradient bg-clip-text text-transparent;
+  }
+
+  /* Primary luxury button */
+  .btn-gold {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-gold-gradient px-7 py-3
+           font-medium text-ink shadow-glow transition-all duration-300
+           hover:scale-[1.03] hover:shadow-[0_0_40px_-8px_rgba(201,163,94,0.6)] active:scale-95;
+  }
+  .btn-outline {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-gold/60 px-7 py-3
+           font-medium text-gold transition-all duration-300 hover:bg-gold hover:text-ink active:scale-95;
+  }
+
+  /* Section heading kicker */
+  .kicker {
+    @apply text-gold uppercase tracking-[0.3em] text-xs font-medium;
+  }
+  .section-title {
+    @apply font-serif text-4xl md:text-5xl font-semibold text-cream;
+  }
+
+  /* Card hover lift */
+  .card-hover {
+    @apply transition-all duration-500 hover:-translate-y-2 hover:shadow-glow;
+  }
+}
+
+/* Hide number input spinners */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
