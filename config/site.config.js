@@ -40,7 +40,7 @@ export const site = {
   mapsEmbedUrl:
     "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d377",
   // The normal Google Maps link (for the "Get Directions" button):
-  mapsDirectionsUrl: "https://maps.app.goo.gl/DdLjH9MZoKKuD1u66",
+  mapsDirectionsUrl: "https://maps.app.goo.gl/Qev4ZNEVSq3WMuGaA",
 
   // ---- Social links (leave "" empty to hide) ----
   social: {
