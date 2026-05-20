@@ -46,11 +46,11 @@ export const eventsConfig = {
 
   // Facilities listed on the events section
   facilities: [
-    "In-house catering on request",
-    "Décor & theme setup",
-    "Sound system",
-    "Ample parking",
-    "Dedicated event coordinator",
+    "In-House Catering On Request",
+    "Decor & Theme Setup",
+    "Sound System",
+    "Ample Parking",
+    "Dedicated Event Coordinator",
   ],
 };
 
