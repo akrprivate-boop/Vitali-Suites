@@ -38,7 +38,7 @@ export const site = {
   // ---- Google Maps ----
   // Paste the EMBED url: Google Maps -> Share -> Embed a map -> copy the src="..." link.
   mapsEmbedUrl:
-    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d234.0114111225538!2d85.69786656162657!3d20.209732739737298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a9e92c4722db%3A0x5fd284cb332c2615!2sHotel%20Vitali%20Suites!5e0!3m2!1sen!2sin!4v1779302961923!5m2!1sen!2sin",
+    "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1323.7680689266097!2d85.69736708329793!3d20.209777008540016!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a9e92c4722db%3A0x5fd284cb332c2615!2sHotel%20Vitali%20Suites!5e0!3m2!1sen!2sin!4v1779303231584!5m2!1sen!2sin",
   // The normal Google Maps link (for the "Get Directions" button):
   mapsDirectionsUrl: "https://maps.app.goo.gl/Qev4ZNEVSq3WMuGaA",
 
