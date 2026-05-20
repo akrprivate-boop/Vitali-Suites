@@ -87,7 +87,7 @@ export const rooms = [
     amenities: [
       "Ceiling Fan",
       "Free High-Speed Wi-Fi",
-      "TV",
+      "Smart TV",
       "Premium Bedding",
       "Daily Housekeeping",
       "Hot Water 24x7",
@@ -132,8 +132,8 @@ export const rooms = [
       "Separate Living Area with Sofa",
       "Free High-Speed Wi-Fi",
       "Smart TV",
-      "Unlimited Rooftop Pool Access"
-      "Rooftop View from the terrace"
+      "Unlimited Rooftop Pool Access",
+      "Rooftop View from the terrace",
       "Premium Bedding",
       "Premium Toiletries",
       "Priority Room Service",
